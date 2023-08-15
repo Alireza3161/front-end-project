@@ -83,14 +83,23 @@ body{
 .img2{
     width:110%;
     height:100%;
+    transform: scale(.9);
+    transition: all .3s ease-in;
 
 
 
-}.img3{
+}
+.img2:hover{
+    transform: scale(1);
+
+}
+
+.img3{
     
     width: 8%;
     height: 100%;
     left: -30px;
+    z-index: 2000;
 
 
 }
@@ -108,7 +117,7 @@ body{
     background-color: rgb(49, 49, 49);
 }
 .part1 h2{
-    margin: 155px 10px;
+    margin: 135px 10px;
     width: 100%;
     font-size: 38px;
     line-height: 60px;
@@ -121,7 +130,7 @@ body{
     margin: 0 20px;
     font-size: 22px;
     line-height: 50px;
-    margin-top: 140px;
+    margin-top: 120px;
 
 
 }
@@ -132,9 +141,9 @@ body{
     font-size: 18px;
     text-shadow: 1.2px 1.3px snow;
     margin-bottom: 25px;
-    padding: 10px;
+    padding: 5px;
     border-bottom: 2px solid white;
-    top: 20px;
+
     
 }
  
@@ -154,13 +163,30 @@ body{
 }
 
 
-.aaa{
-    background-color: rgb(118, 10, 145);
-    width: 50vw;
+.part4-1{
+    background-color: white;
+    width: 100vw;
     height: 50vh;
 }
-.bbb{
-    width: 50vw;
+.part4-2{
+    width: 100vw;
     height: 50vh;
-    background-color: rgb(113, 26, 26);
+    background-color: rgb(237, 237, 237);
+}
+
+.start2{
+    margin-top: 20px;
+    text-shadow: 1px 1px white;
+    text-decoration: none;
+    padding: 6px;
+    border-bottom: 2px solid white;
+    font-size: 21px;
+}
+
+.img4{
+    text-align: center;
+    position: relative;
+}
+.img4-4{
+    margin-top: 250px;
 }
