@@ -1,27 +1,24 @@
 @font-face {
-    font-family: "calibr";
-    src: url("/font/CalibriLight.ttf") format("ttf");
+    font-family: 'alireza';
+    src: url('/font/Vazir.woff') format('woff');
 }
-@font-face {
-    font-family: 'vazir';
-    src: url("/font/Vazir.woff") format("woof");
+body{
+    font-family: 'alireza';
+    direction: rtl;
 }
 
 *{
-    direction: rtl;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "calibr";
-}
-body{
-    font-family: "calibr";
+    
 }
 
 
 /* start section1 */
 .section1{
-    background: linear-gradient(RGBA(255,255,245,0.200),RGBA(250,255,250,0.3)), url(/img/bgHero.jpg);
+    
+    background: linear-gradient(RGBA(5,5,5,0.700),RGBA(250,255,255,0.5)), url(/img/bgHero.jpg);
     width: 100%;
     height: 90vh;
 
@@ -63,6 +60,7 @@ body{
     width: 50vw;
     height:60%;
     z-index: 5;
+    border-radius: 10px;
 
 
 }
@@ -106,19 +104,63 @@ body{
 
 .section2{
     width: 100%;
-    height: 500px;
+    height: auto;
     background-color: rgb(49, 49, 49);
 }
 .part1 h2{
-    margin: 185px 20px;
-    width: 500px;
-    font-size: 42px;
+    margin: 155px 10px;
+    width: 100%;
+    font-size: 38px;
     line-height: 60px;
+    text-shadow: 1.05px 1.1px white;
+
+
 }
 .part2 h3{
+    background-color:rgb(49, 49, 49) ;
     margin: 0 20px;
     font-size: 22px;
     line-height: 50px;
-    margin-top: 180px;
+    margin-top: 140px;
 
+
+}
+.part2 a{
+
+    text-decoration: none;
+    margin: 20px ;
+    font-size: 18px;
+    text-shadow: 1.2px 1.3px snow;
+    margin-bottom: 25px;
+    padding: 10px;
+    border-bottom: 2px solid white;
+    top: 20px;
+    
+}
+ 
+/* section3 */
+.section3{
+    width: 100%;
+    height: 100vh;
+}
+.part3{
+
+    height: 100vh;
+    background-color: rgb(24, 166, 137);
+}
+.part4{
+    
+    height: 100vh;
+}
+
+
+.aaa{
+    background-color: rgb(118, 10, 145);
+    width: 50vw;
+    height: 50vh;
+}
+.bbb{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(113, 26, 26);
 }
