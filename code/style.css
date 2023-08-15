@@ -1,6 +1,6 @@
 @font-face {
     font-family: "calibr";
-    src: url("/font/CalibriRegular.ttf") format("ttf");
+    src: url("/font/CalibriLight.ttf") format("ttf");
 }
 @font-face {
     font-family: 'vazir';
@@ -12,13 +12,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "vazir";
+    font-family: "calibr";
+}
+body{
+    font-family: "calibr";
 }
 
 
 /* start section1 */
 .section1{
-    background: linear-gradient(RGBA(0,0,8,0.620),RGBA(0,0,2,0.008)), url(/img/bgHero.jpg);
+    background: linear-gradient(RGBA(255,255,245,0.200),RGBA(250,255,250,0.3)), url(/img/bgHero.jpg);
     width: 100%;
     height: 90vh;
 
@@ -31,8 +34,91 @@
 }
 .itemofnav{
     
-    font-size: 1.07rem;
+    font-size: 1.08rem;
 }
 .phone{
     border-left: 1.5px solid snow;
+}
+/* header */
+.header{
+    width: 60%;
+    color: snow;
+    margin: 5px auto;
+    text-align: center;
+}
+.btn1{
+    margin-right: auto;
+    background-color: white;
+    color: rgb(166, 155, 170);
+    border: 2px solid white;
+    padding: 8px 20px;
+    border-radius: 45px;
+    font-size: 21px;
+
+}
+/* start  inner-section1 */
+.inner-section1{
+    margin: 12% auto ;
+    background-color:white;
+    width: 50vw;
+    height:60%;
+    z-index: 5;
+
+
+}
+.test{
+    
+    width:100%;
+    height: 500px;
+    background-color: white;
+}
+.img1{
+    width: 6%;
+    height: auto;
+    height: 60%;
+    margin: auto 0;
+    right: -19px;
+    top: 110px;
+
+
+}
+.img2{
+    width:110%;
+    height:100%;
+
+
+
+}.img3{
+    
+    width: 8%;
+    height: 100%;
+    left: -30px;
+
+
+}
+.bottom{
+    width: 80%;
+    height: 5px;
+    background-color: rgb(40, 5, 5);
+    z-index: 10;
+}
+/* section2 */
+
+.section2{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(49, 49, 49);
+}
+.part1 h2{
+    margin: 185px 20px;
+    width: 500px;
+    font-size: 42px;
+    line-height: 60px;
+}
+.part2 h3{
+    margin: 0 20px;
+    font-size: 22px;
+    line-height: 50px;
+    margin-top: 180px;
+
 }
