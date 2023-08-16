@@ -18,7 +18,7 @@ body{
 /* start section1 */
 .section1{
     
-    background: linear-gradient(RGBA(255,255,255,0.400),RGBA(255,255,255,0.5)), url(/img/bgHero.jpg);
+    background: linear-gradient(RGBA(0,0,0,0.500),RGBA(255,255,255,0.6)), url(/img/bgHero.jpg);
     width: 100%;
     height: 90vh;
 
@@ -368,4 +368,5 @@ h4{
 }
 
 /* section15 */
+
 
